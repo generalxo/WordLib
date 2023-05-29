@@ -1,6 +1,6 @@
 ﻿namespace WordLib
 {
-    public class WordLib
+    public class WordLibClass
     {
 
     }
