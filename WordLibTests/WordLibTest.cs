@@ -16,5 +16,17 @@ namespace WordLibTests
             Assert.AreEqual(expected, actual);
 
         }
+
+        [TestMethod]
+        public void WordLib_IsPalindrome_hello_false()
+        {
+            WordLibClass wordLib = new WordLibClass();
+
+            bool expected = false;
+            bool actual = wordLib.IsPalindrome("hello");
+
+            Assert.AreEqual(expected, actual);
+
+        }
     }
 }
